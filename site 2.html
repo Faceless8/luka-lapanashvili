@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>Website</title>
-</head>
-<body>
-
-<!-- Navigation -->
-<nav>
-    <a href="#page with image" target="_blank">Image Page</a> |
-    <a href="#page with video" target="_blank">Video Page</a> |
-    <a href="#contact Page" target="_blank">Contact</a>
-</nav>
-
-<!-- Image Page Content -->
-<section id="page with image">
-    <h1>Image Page </h1>
-    <div>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1024px-Altja_j%C3%B5gi_Lahemaal.jpg" alt="nature" width="100%">
-    </div>
-    <div style="display: flex;">
-        <div style="flex: 1;">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit odio suscipit neque explicabo unde enim facere cumque accusamus, cupiditate quidem quisquam officia sunt aliquid, corporis distinctio sapiente! Quo, blanditiis alias.</p>
-        </div>
-        <div style="flex: 1;">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit, omnis, consectetur ipsum alias, natus rerum voluptate sapiente cumque modi voluptatem illum officiis doloremque animi a magnam quibusdam error vel?</p>
-        </div>
-    </div>
-</section>
-
-<!-- Video Page Content -->
-<div id="page with video">
-    <h1>Video Page</h1>
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/nDLb8_wgX50?si=-4khVexgVO3I612Y" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="text">
-        <div style="display: flex;">
-        <h1>It is a conversation that will inform and inspire anyone wondering how exactly to go about building discipline and confidence and reach their potential and what happening when you reach your potential</h1>
-        </div>
-    </div>
-</div>
-</section>
-
+    <title>Website 2</title>
+  </head>
+  <body>
     
+    <!-- Navigation -->
+    <nav>
+      <a href="#page with image" target="_blank">Image Page</a> | <a href="#page with video" target="_blank">Video Page</a> | <a href="#contact" target="_blank">Contact</a>
+    </nav>
 
+    <!-- Image Page Content -->
+    <section id="page with image">
+      <h1>Image Page </h1>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg/1024px-Altja_j%C3%B5gi_Lahemaal.jpg" alt="nature" width="100%">
+      </div>
+      <div style="display: flex;">
+        <div style="flex: 1;">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit odio suscipit neque explicabo unde enim facere cumque accusamus, cupiditate quidem quisquam officia sunt aliquid, corporis distinctio sapiente! Quo, blanditiis alias.</p>
+        </div>
+        <div style="flex: 1;">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit, omnis, consectetur ipsum alias, natus rerum voluptate sapiente cumque modi voluptatem illum officiis doloremque animi a magnam quibusdam error vel?</p>
+        </div>
+      </div>
+    </section>
 
+    <!-- Video Page Content -->
+    <div id="page with video">
+      <style>
+        .container {
+          display: flex;
+          align-items: center;
+        }
+      </style>
+      <div class="container">
+        <h1>Video Page</h1>
+        <div>
+          <iframe width="500" height="315" src="https://www.youtube.com/embed/nDLb8_wgX50?si=-4khVexgVO3I612Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="text">
+          <p>It is a conversation that will inform and inspire anyone wondering how exactly to go about building discipline and confidence and reach their potential and what happening when you reach your potential</p>
+        </div>
+      </div>
+    </section>
 
-<!-- Contact Content -->
-<section id="Contact">
-    <h1>Contact Page</h1>
-        <form action="your_server_script.php" method="post"></form>
+      <!-- Contact Page Content -->
+      <section id="contact">
+        <h1>Contact page</h1>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        <br>
+        <br>
         <input type="submit" value="Submit">
-    </form>
-</section>
-
-
-</body>
+        </form>
+      </section>
+  </body>
 </html>
